@@ -1,0 +1,602 @@
+[
+    {
+        "Amount": 1951141.06,
+        "Timestamp": "2024-09-15T21:03:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1718065.98,
+        "Timestamp": "2024-09-15T21:13:12",
+        "Counterparty": "Bank D",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1848455.69,
+        "Timestamp": "2024-09-15T21:23:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1945270.21,
+        "Timestamp": "2024-09-15T21:33:12",
+        "Counterparty": "Bank A",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1120015.04,
+        "Timestamp": "2024-09-15T21:43:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1439504.21,
+        "Timestamp": "2024-09-15T21:53:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1648541.4,
+        "Timestamp": "2024-09-15T22:03:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 486895.8,
+        "Timestamp": "2024-09-15T22:13:12",
+        "Counterparty": "Bank D",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 972234.42,
+        "Timestamp": "2024-09-15T22:23:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1468259.45,
+        "Timestamp": "2024-09-15T22:33:12",
+        "Counterparty": "Bank A",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1560166.65,
+        "Timestamp": "2024-09-15T22:43:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 236504.87,
+        "Timestamp": "2024-09-15T22:53:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1446418.73,
+        "Timestamp": "2024-09-15T23:03:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1676819.44,
+        "Timestamp": "2024-09-15T23:13:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 180367.69,
+        "Timestamp": "2024-09-15T23:23:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 665404.65,
+        "Timestamp": "2024-09-15T23:33:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1225438.98,
+        "Timestamp": "2024-09-15T23:43:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 408803.16,
+        "Timestamp": "2024-09-15T23:53:12",
+        "Counterparty": "Bank A",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1988431.86,
+        "Timestamp": "2024-09-16T00:03:12",
+        "Counterparty": "Bank D",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1926985.15,
+        "Timestamp": "2024-09-16T00:13:12",
+        "Counterparty": "Bank A",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 198702.61,
+        "Timestamp": "2024-09-16T00:23:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 137284.82,
+        "Timestamp": "2024-09-16T00:33:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1996006.37,
+        "Timestamp": "2024-09-16T00:43:12",
+        "Counterparty": "Bank D",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 243295.96,
+        "Timestamp": "2024-09-16T00:53:12",
+        "Counterparty": "Bank A",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1632298.95,
+        "Timestamp": "2024-09-16T01:03:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1687835.36,
+        "Timestamp": "2024-09-16T01:13:12",
+        "Counterparty": "Bank A",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1299747.55,
+        "Timestamp": "2024-09-16T01:23:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1905317.78,
+        "Timestamp": "2024-09-16T01:33:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 343461.68,
+        "Timestamp": "2024-09-16T01:43:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 970905.81,
+        "Timestamp": "2024-09-16T01:53:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 947357.39,
+        "Timestamp": "2024-09-16T02:03:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1770519.21,
+        "Timestamp": "2024-09-16T02:13:12",
+        "Counterparty": "Bank D",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 356108.4,
+        "Timestamp": "2024-09-16T02:23:12",
+        "Counterparty": "Bank D",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 363255.96,
+        "Timestamp": "2024-09-16T02:33:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 229257.14,
+        "Timestamp": "2024-09-16T02:43:12",
+        "Counterparty": "Bank D",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 293594.06,
+        "Timestamp": "2024-09-16T02:53:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1824170.68,
+        "Timestamp": "2024-09-16T03:03:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1642553.09,
+        "Timestamp": "2024-09-16T03:13:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1118385.21,
+        "Timestamp": "2024-09-16T03:23:12",
+        "Counterparty": "Bank D",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 819486.73,
+        "Timestamp": "2024-09-16T03:33:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 790531.66,
+        "Timestamp": "2024-09-16T03:43:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 328967.91,
+        "Timestamp": "2024-09-16T03:53:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 414262.53,
+        "Timestamp": "2024-09-16T04:03:12",
+        "Counterparty": "Bank D",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1234741.11,
+        "Timestamp": "2024-09-16T04:13:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 510296.37,
+        "Timestamp": "2024-09-16T04:23:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 492251.05,
+        "Timestamp": "2024-09-16T04:33:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1314515.4,
+        "Timestamp": "2024-09-16T04:43:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 291033.07,
+        "Timestamp": "2024-09-16T04:53:12",
+        "Counterparty": "Bank D",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1697896.1,
+        "Timestamp": "2024-09-16T05:03:12",
+        "Counterparty": "Bank A",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 613620.29,
+        "Timestamp": "2024-09-16T05:13:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 425636.21,
+        "Timestamp": "2024-09-16T05:23:12",
+        "Counterparty": "Bank D",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 299244.18,
+        "Timestamp": "2024-09-16T05:33:12",
+        "Counterparty": "Bank D",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 507618.64,
+        "Timestamp": "2024-09-16T05:43:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 439332.26,
+        "Timestamp": "2024-09-16T05:53:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 632771.62,
+        "Timestamp": "2024-09-16T06:03:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1450227.01,
+        "Timestamp": "2024-09-16T06:13:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 802178.2,
+        "Timestamp": "2024-09-16T06:23:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1614061.72,
+        "Timestamp": "2024-09-16T06:33:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1860174.33,
+        "Timestamp": "2024-09-16T06:43:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 991145.94,
+        "Timestamp": "2024-09-16T06:53:12",
+        "Counterparty": "Bank D",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1388512.92,
+        "Timestamp": "2024-09-16T07:03:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 936649.06,
+        "Timestamp": "2024-09-16T07:13:12",
+        "Counterparty": "Bank D",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1564647.25,
+        "Timestamp": "2024-09-16T07:23:12",
+        "Counterparty": "Bank A",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 100493.57,
+        "Timestamp": "2024-09-16T07:33:12",
+        "Counterparty": "Bank A",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1574244.32,
+        "Timestamp": "2024-09-16T07:43:12",
+        "Counterparty": "Bank A",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1372886.08,
+        "Timestamp": "2024-09-16T07:53:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1965140.93,
+        "Timestamp": "2024-09-16T08:03:12",
+        "Counterparty": "Bank D",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1216790.17,
+        "Timestamp": "2024-09-16T08:13:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1484574.42,
+        "Timestamp": "2024-09-16T08:23:12",
+        "Counterparty": "Bank D",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 543596.8,
+        "Timestamp": "2024-09-16T08:33:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 730219.69,
+        "Timestamp": "2024-09-16T08:43:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 273406.13,
+        "Timestamp": "2024-09-16T08:53:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1496627.05,
+        "Timestamp": "2024-09-16T09:03:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1059332.91,
+        "Timestamp": "2024-09-16T09:13:12",
+        "Counterparty": "Bank D",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 376612.19,
+        "Timestamp": "2024-09-16T09:23:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1306327.95,
+        "Timestamp": "2024-09-16T09:33:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 422271.82,
+        "Timestamp": "2024-09-16T09:43:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1314893.47,
+        "Timestamp": "2024-09-16T09:53:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 778845.66,
+        "Timestamp": "2024-09-16T10:03:12",
+        "Counterparty": "Bank A",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1281496.1,
+        "Timestamp": "2024-09-16T10:13:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1244413.31,
+        "Timestamp": "2024-09-16T10:23:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1947583.27,
+        "Timestamp": "2024-09-16T10:33:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1320833.44,
+        "Timestamp": "2024-09-16T10:43:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1702181.14,
+        "Timestamp": "2024-09-16T10:53:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1674076.29,
+        "Timestamp": "2024-09-16T11:03:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 148567.36,
+        "Timestamp": "2024-09-16T11:13:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 825843.18,
+        "Timestamp": "2024-09-16T11:23:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1010778.44,
+        "Timestamp": "2024-09-16T11:33:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1022035.89,
+        "Timestamp": "2024-09-16T11:43:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1575514.42,
+        "Timestamp": "2024-09-16T11:53:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 174693.61,
+        "Timestamp": "2024-09-16T12:03:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 612578.46,
+        "Timestamp": "2024-09-16T12:13:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 804450.19,
+        "Timestamp": "2024-09-16T12:23:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1108207.3,
+        "Timestamp": "2024-09-16T12:33:12",
+        "Counterparty": "Bank A",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1748502.39,
+        "Timestamp": "2024-09-16T12:43:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1231688.64,
+        "Timestamp": "2024-09-16T12:53:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 752875.48,
+        "Timestamp": "2024-09-16T13:03:12",
+        "Counterparty": "Bank A",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1824591.1,
+        "Timestamp": "2024-09-16T13:13:12",
+        "Counterparty": "Bank C",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1178837.01,
+        "Timestamp": "2024-09-16T13:23:12",
+        "Counterparty": "Bank E",
+        "Currency": "GBP"
+    },
+    {
+        "Amount": 1144144.57,
+        "Timestamp": "2024-09-16T13:33:12",
+        "Counterparty": "Bank B",
+        "Currency": "GBP"
+    }
+]
