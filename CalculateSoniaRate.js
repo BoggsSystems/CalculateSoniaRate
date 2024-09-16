@@ -1,33 +1,22 @@
-const csv = require('csv-parser');
-const { Readable } = require('stream');
-
 module.exports = async function (context, req) {
-    context.log('CalculateSoniaRate function triggered with a CSV file');
+    context.log('CalculateSoniaRate function triggered');
 
-    // Check if a file is uploaded
-    if (!req.body || !req.headers['content-type'].includes('multipart/form-data')) {
+    // Parse the request body
+    const transactions = req.body;
+
+    if (!transactions || !Array.isArray(transactions)) {
         context.res = {
             status: 400,
-            body: "Please upload a CSV file."
+            body: "Invalid input. Please provide an array of transactions."
         };
         return;
     }
 
     try {
-        const csvData = await parseCSV(req.body);
+        // Calculate the SONIA interest rate using the SoniaCalculator
+        const soniaRate = calculateSoniaInterestRate(transactions);
         
-        if (!csvData || csvData.length === 0) {
-            context.res = {
-                status: 400,
-                body: "The CSV file is empty or invalid."
-            };
-            return;
-        }
-
-        // Process the parsed CSV data and calculate the SONIA rate
-        const soniaRate = calculateSoniaRate(csvData);
-        
-        // Return the calculated SONIA rate
+        // Return the result
         context.res = {
             status: 200,
             body: { SONIARate: soniaRate }
@@ -35,42 +24,30 @@ module.exports = async function (context, req) {
     } catch (error) {
         context.res = {
             status: 500,
-            body: `An error occurred while processing the CSV file: ${error.message}`
+            body: "An error occurred: " + error.message
         };
     }
 };
 
-// Helper function to parse the CSV data
-async function parseCSV(fileBuffer) {
-    return new Promise((resolve, reject) => {
-        const results = [];
-        const stream = Readable.from(fileBuffer);
+// Function to calculate SONIA interest rate
+function calculateSoniaInterestRate(transactions) {
+    // Filter out anomalies (transactions that exceed a certain threshold)
+    const validTransactions = filterAnomalies(transactions);
 
-        stream.pipe(csv())
-            .on('data', (data) => results.push(data))
-            .on('end', () => resolve(results))
-            .on('error', (error) => reject(error));
-    });
+    // Calculate the volume-weighted average interest rate
+    const totalVolume = validTransactions.reduce((sum, t) => sum + t.Amount, 0);
+    const totalWeightedRate = validTransactions.reduce((sum, t) => sum + (t.Amount * t.InterestRate), 0);
+
+    if (totalVolume === 0) {
+        throw new Error("No valid transactions found.");
+    }
+
+    // Return the volume-weighted average interest rate
+    return totalWeightedRate / totalVolume;
 }
 
-// Function to calculate SONIA rate
-function calculateSoniaRate(transactions) {
-    // Convert CSV row data to numbers and filter anomalies
-    const validTransactions = transactions
-        .map(t => ({ ...t, Amount: parseFloat(t.Amount) }))
-        .filter(t => t.Amount < 1000000);  // Filtering logic for anomalies
-
-    // Calculate the median of valid transaction amounts
-    const amounts = validTransactions.map(t => t.Amount);
-    return median(amounts);
-}
-
-// Helper function to calculate the median
-function median(arr) {
-    if (arr.length === 0) throw new Error("No valid transactions to calculate the rate.");
-    
-    const sorted = arr.sort((a, b) => a - b);
-    const mid = Math.floor(sorted.length / 2);
-    
-    return (sorted.length % 2 === 0) ? (sorted[mid - 1] + sorted[mid]) / 2 : sorted[mid];
+// Function to filter anomalies from the transactions
+function filterAnomalies(transactions) {
+    const threshold = 1000000; // Example threshold for anomaly
+    return transactions.filter(t => t.Amount < threshold);
 }
